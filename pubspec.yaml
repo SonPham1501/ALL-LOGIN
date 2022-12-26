@@ -30,6 +30,17 @@ dependencies:
   flutter:
     sdk: flutter
 
+  flutter_svg: ^1.1.6
+  google_sign_in: ^5.4.2
+
+  #firebase
+  firebase_messaging: ^12.0.1
+  firebase_core: ^1.14.1
+  firebase_analytics: ^9.1.12
+  firebase_crashlytics: ^2.0.0
+  flutter_local_notifications: ^9.5.3+1
+  firebase_database: ^9.0.18
+  # notification_permissions: ^0.5.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -44,7 +55,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^1.0.0
+  flutter_lints: ^2.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -58,9 +69,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/
+    - assets/icons/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
